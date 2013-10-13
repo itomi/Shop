@@ -5,13 +5,14 @@ import pl.solsoft.shop2013.domain.User;
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
 
-/**
+*
  * Created with IntelliJ IDEA.
  * User: arek
  * Date: 14.08.13
  * Time: 16:32
  * To change this template use File | Settings | File Templates.
- */
+
+
 public class ConfirmUserPasswordValidator implements ConstraintValidator<ConfirmUserPassword, Object> {
 
     private String message;

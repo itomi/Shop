@@ -85,26 +85,26 @@
             <version>2.2.2</version>
         </dependency>
 
-        <!-- Wicket framework-->
-        <dependency>
-            <groupId>org.apache.wicket</groupId>
-            <artifactId>wicket</artifactId>
-            <version>1.4.17</version>
-        </dependency>
+        <!--&lt;!&ndash; Wicket framework&ndash;&gt;-->
+        <!--<dependency>-->
+            <!--<groupId>org.apache.wicket</groupId>-->
+            <!--<artifactId>wicket</artifactId>-->
+            <!--<version>1.4.17</version>-->
+        <!--</dependency>-->
 
-        <!-- Integrate Wicket with Spring -->
-        <dependency>
-            <groupId>org.apache.wicket</groupId>
-            <artifactId>wicket-spring</artifactId>
-            <version>1.4.17</version>
-        </dependency>
+        <!--&lt;!&ndash; Integrate Wicket with Spring &ndash;&gt;-->
+        <!--<dependency>-->
+            <!--<groupId>org.apache.wicket</groupId>-->
+            <!--<artifactId>wicket-spring</artifactId>-->
+            <!--<version>1.4.17</version>-->
+        <!--</dependency>-->
 
-        <!--Wicket-bootstrap-->
-        <dependency>
-            <groupId>org.apache.wicket</groupId>
-            <artifactId>wicket-bootstrap</artifactId>
-            <version>0.11</version>
-        </dependency>
+        <!--&lt;!&ndash;Wicket-bootstrap&ndash;&gt;-->
+        <!--<dependency>-->
+            <!--<groupId>org.apache.wicket</groupId>-->
+            <!--<artifactId>wicket-bootstrap</artifactId>-->
+            <!--<version>0.11</version>-->
+        <!--</dependency>-->
 
         <!--Freemarker-->
         <dependency>

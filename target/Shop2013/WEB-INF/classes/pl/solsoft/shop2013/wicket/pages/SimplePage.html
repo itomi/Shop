@@ -1,0 +1,50 @@
+<html xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.4-strict.dtd">
+
+<wicket:extend>
+<div class="container">
+        <div wicket:id="container">
+            <br><br>
+            <h3>Add Category</h3>
+            <br/>
+            <form action="" wicket:id="categoryForm">
+                <label>Category name:</label>
+                <input type="text" wicket:id="name" style="height: 30px"/>
+                <br/>
+
+                <label>Parent category:</label>
+                <select wicket:id="categories">
+                    <option value="">None</option>
+                </select>
+                <br/>
+               <input type="submit" class="btn" value="Save"/>
+            </form>
+
+            <table class="table table-hover">
+                <tr>
+                    <th>Category ID</th>
+                    <th>Category name</th>
+                    <th>Category Parent Id</th>
+                    <th>Category Parent name</th>
+                </tr>
+                <tr wicket:id="categoryList">
+                    <td wicket:id="id"/>
+                    <td wicket:id="name"/>
+                    <td wicket:id="displayParentId"/>
+                    <td wicket:id="displayParent"/>
+                </tr>
+            </table>
+        </div>
+
+        <h3>Learning AJAX</h3>
+        <a href="#" wicket:id="link">Click here</a>
+        <p>
+            You clicked: <span wicket:id="counter">nr of times</span>
+        </p>
+</div>
+</wicket:extend>
+
+</html>
+
+
+
+

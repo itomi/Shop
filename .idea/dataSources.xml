@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2388955677">
+    <data-source source="LOCAL" name="Data Source" product="PostgreSQL" version="9.0.13" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.2 JDBC4 (build 1002)" uuid="8f10b2a5-7cc8-4138-84e0-24f268d36532">
+      <identifier-quote-string>&quot;</identifier-quote-string>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/postgres</jdbc-url>
+      <user-name>postgres</user-name>
+      <user-password>dfc7dfcbdfc3dfc4dfdadfcbdfd9dfd9</user-password>
+      <libraries>
+        <library>
+          <url>jar://$PROJECT_DIR$/postgresql-9.2-1002.jdbc4.jar!/</url>
+        </library>
+        <library>
+          <url>file://$PROJECT_DIR$/postgresql-driver-license.txt</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
+</project>
+

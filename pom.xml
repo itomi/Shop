@@ -207,8 +207,13 @@
 
         <!--WICKET-->
         <dependency>
+        	<groupId>org.apache.wicket</groupId>
+        	<artifactId>wicket-bootstrap</artifactId>
+        	<version>0.12</version>
+        </dependency>
+        <dependency>
             <groupId>org.apache.wicket</groupId>
-            <artifactId>wicket</artifactId>
+            <artifactId>wicket-core</artifactId>
             <version>6.9.1</version>
         </dependency>
         <dependency>

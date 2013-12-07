@@ -5,13 +5,13 @@
 
 <hibernate-configuration>
     <session-factory>
-        <mapping class="pl.solsoft.shop2013.domain.Authority"/>
-        <mapping class="pl.solsoft.shop2013.domain.OrderItem"/>
-        <mapping class="pl.solsoft.shop2013.domain.Category"/>
-        <mapping class="pl.solsoft.shop2013.domain.CategoryProductRelation"/>
-        <mapping class="pl.solsoft.shop2013.domain.Order"/>
-        <mapping class="pl.solsoft.shop2013.domain.Product"/>
-        <mapping class="pl.solsoft.shop2013.domain.User"/>
+        <mapping class="pl.bd2.shop2013.domain.Authority"/>
+        <mapping class="pl.bd2.shop2013.domain.OrderItem"/>
+        <mapping class="pl.bd2.shop2013.domain.Category"/>
+        <mapping class="pl.bd2.shop2013.domain.CategoryProductRelation"/>
+        <mapping class="pl.bd2.shop2013.domain.Order"/>
+        <mapping class="pl.bd2.shop2013.domain.Product"/>
+        <mapping class="pl.bd2.shop2013.domain.User"/>
     </session-factory>
 
 </hibernate-configuration>

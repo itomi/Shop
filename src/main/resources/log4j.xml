@@ -27,7 +27,7 @@
         </layout>
     </appender>
 
-    <logger name="pl.solsoft.shop2013.controllers.AdminController" additivity="false">
+    <logger name="pl.bd2.shop2013.controllers.AdminController" additivity="false">
         <level value="trace"/>
         <appender-ref ref="another.file"/>
     </logger>

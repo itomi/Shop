@@ -51,7 +51,7 @@
         <filter-class>org.apache.wicket.protocol.http.WicketFilter</filter-class>
         <init-param>
             <param-name>applicationClassName</param-name>
-            <param-value>pl.solsoft.shop2013.wicket.WicketApplication</param-value>
+            <param-value>pl.bd2.shop2013.wicket.WicketApplication</param-value>
         </init-param>
     </filter>
 

@@ -15,7 +15,7 @@
         http://www.springframework.org/schema/aop
          http://www.springframework.org/schema/aop/spring-aop.xsd">
 
-    <context:component-scan base-package="pl.solsoft.shop2013"/>
+    <context:component-scan base-package="pl.bd2.shop2013"/>
 
     <mvc:annotation-driven />
 
@@ -68,7 +68,7 @@
     <!--Spring security configuration -->
     <import resource="spring-security.xml"/>
 
-    <bean id="cart" class="pl.solsoft.shop2013.domain.Cart" scope="session">
+    <bean id="cart" class="pl.bd2.shop2013.domain.Cart" scope="session">
         <aop:scoped-proxy/>
     </bean>
 
